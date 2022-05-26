@@ -1,0 +1,23 @@
+There are 3 style sheets ---
+1) element_style for setting the style using element selectors.
+2) custom_styles for setting the style using classe's and id's.
+3) media for setting media queries.
+
+//navigation logo
+  font-family --- "Brush Script MT", cursive, sans-serif
+  font-weight --- 700
+  font-size --- 2rem
+
+//navigation items
+  font-size --- 1.2rem;
+  font-weight --- 500;
+
+//section-1
+
+//h1 & h2 
+  font-size: 5.5rem;
+  line-height: 6rem;
+
+//p
+  font-size: 1.3rem;
+  line-height: 2rem;  
