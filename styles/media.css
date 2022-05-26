@@ -49,21 +49,18 @@
 }
 
 @media (max-width: 940px) {
-  body {
-    overflow-x: hidden;
-  }
-  .header {
-    padding: 2rem 3.5rem 0 3.5rem;
+  .heading {
+    padding: 2rem 2.5rem 0 2.5rem;
   }
   .section-1-main {
     grid-template-columns: 1fr 0.5fr;
-  }
-  .section-1-img img {
-    width: 150%;
+    padding: 5rem 2.5rem 1rem 2.5rem;
+    gap: 2rem;
   }
 
-  .section-1-main {
-    padding: 3rem 3.5rem 0 3.5rem;
+  .section-1-img img {
+    margin: 0;
+    width: 120%;
   }
 
   .section-1-content h2 {
@@ -86,6 +83,11 @@
   .header {
     padding: 2rem 5rem 0 5rem;
   }
+
+  .header nav {
+    display: none;
+  }
+
   .section-1-main {
     grid-template-columns: 1fr;
     text-align: center;
