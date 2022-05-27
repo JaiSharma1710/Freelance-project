@@ -18,13 +18,19 @@
   <link rel="stylesheet" href="./styles/element_styles.css">
   <link rel="stylesheet" href="./styles/custom_styles.css">
   <link rel="stylesheet" href="./styles/media.css">
+  <!-- ion icon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/f49b70df07.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
+  <!-- ///////////////////////////////////////////////////navigation///////////////////////////////////////////////////////// -->
+
   <header class="header">
     <a href="#" class="nav_logo">PEACH</a>
-    <nav>
+    <nav class="main-nav">
       <ul class="nav_list">
         <li><a href="#">Home</a></li>
         <li><a href="#">Menu</a></li>
@@ -33,9 +39,14 @@
         <li><a href="#">Contact us</a></li>
       </ul>
     </nav>
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
   </header>
 
   <main>
+    <!-- ///////////////////////////////////////////////////section-1///////////////////////////////////////////////////////// -->
     <section class="section-1">
       <div class="section-1-main">
         <div class="section-1-content">
@@ -49,7 +60,32 @@
         <div class="section-1-img"><img class="img" src="./img/girl2.png" /></div>
       </div>
     </section>
+    <!-- ///////////////////////////////////////////////////section-2///////////////////////////////////////////////////////// -->
+
+    <section class="section-2">
+      <div class="section-2-main">
+        <div class="card">
+          <ion-icon name="cart-outline"></ion-icon>
+          <h3>4 INTEREST-FREE PAYMENTS</h3>
+          <p>Fill up Basic details & instantly get a credit limit.</p>
+        </div>
+        <div class="card">
+          <ion-icon name="close-outline"></ion-icon>
+          <h3>NO INTEREST OR FEES</h3>
+          <p>Scan or just pay using your link online or offline.</p>
+        </div>
+        <div class="card">
+          <ion-icon name="gift-outline"></ion-icon>
+          <h3>BEST DISCOUNTS AND DEALS</h3>
+          <p>Split it into 4 installments or Pay after 30 days at No cost.</p>
+        </div>
+      </div>
+    </section>
+
   </main>
+
+  <script src="./app.js"></script>
+
 </body>
 
 </html>

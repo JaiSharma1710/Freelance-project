@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #ffcccc;
+  position: relative;
 }
 
 .nav_logo {
@@ -74,11 +75,11 @@
 
 .section-1-content h2 {
   font-size: 5.5rem;
-  line-height: 6rem;
+  line-height: 6.5rem;
 }
 .section-1-content h1 {
   font-size: 6rem;
-  line-height: 6rem;
+  line-height: 6.5rem;
 }
 
 .section-1-content p {
@@ -96,6 +97,7 @@
   font-weight: 700;
   font-size: 1rem;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .try-btn {
@@ -116,4 +118,53 @@
 }
 .learn-btn:hover {
   background-color: #ffcccc;
+}
+
+/* mobile nav */
+
+.btn-mobile-nav {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 3rem;
+  width: 3rem;
+  color: black;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+.section-2 {
+  padding: 3rem 0;
+}
+
+.section-2-main {
+  margin: auto;
+  max-width: 85rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 10rem;
+}
+
+.card {
+  margin: 0 2rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-0.5rem);
 }
