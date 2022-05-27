@@ -116,10 +116,6 @@
 
   /* mobile navigation */
 
-  html {
-    overflow-y: hidden;
-  }
-
   .btn-mobile-nav {
     display: block;
   }
@@ -134,7 +130,7 @@
     align-items: center;
     justify-content: center;
     transition: all 0.5s;
-    transform: translateX(100%);
+    /* transform: translateX(100%); */
     /* Hide the navigation */
     opacity: 0;
     pointer-events: none;
@@ -145,7 +141,7 @@
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-    transform: translate(0);
+    /* transform: translate(0); */
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
