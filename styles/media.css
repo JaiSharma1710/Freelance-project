@@ -46,6 +46,17 @@
     font-size: 0.9rem;
     line-height: 1.5rem;
   }
+  .left {
+    padding: 0 2rem;
+  }
+
+  .section-4-main {
+    padding: 3rem 1.5rem;
+  }
+
+  .right img {
+    width: 90%;
+  }
 }
 
 @media (max-width: 940px) {
@@ -86,6 +97,23 @@
 
   .card:hover {
     transform: translate(0);
+  }
+
+  .section-4-main {
+    padding: 3rem 1rem;
+  }
+
+  .left {
+    padding: 0 2rem;
+  }
+
+  .left h1 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
+
+  .right img {
+    width: 90%;
   }
 }
 
@@ -159,6 +187,55 @@
     margin: 0;
     font-size: 2rem;
   }
+
+  .section-3-brands {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-3-main h1 {
+    font-size: 2.3rem;
+  }
+
+  .section-3-main h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-3-brands img:hover {
+    transform: scale(100%);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  }
+
+  .section-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .section-4-main {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .left h1 {
+    font-size: 2.3rem;
+    line-height: 3.5rem;
+  }
+
+  .right {
+    padding: 0;
+    text-align: center;
+  }
+
+  .right img {
+    width: 60%;
+  }
+
+  .section-4-main {
+    padding: 0 1rem;
+  }
+  .left {
+    padding: 0;
+  }
 }
 
 @media (max-width: 530px) {
@@ -180,6 +257,17 @@
   .section-1-btn {
     width: 7.5rem;
     height: 3rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .left h1 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .left p {
+    font-size: 0.8rem;
   }
 }
 
@@ -207,6 +295,27 @@
 
   .try-btn {
     margin-top: 2rem;
+  }
+
+  .section-3-main h1 {
+    font-size: 1.8rem;
+  }
+
+  .section-3-main h2 {
+    font-size: 1rem;
+  }
+
+  .section-4-main {
+    padding: 0;
+  }
+
+  .left h1 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .left p {
+    font-size: 0.8rem;
   }
 }
 
