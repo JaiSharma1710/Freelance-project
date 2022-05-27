@@ -81,7 +81,11 @@
   .section-2-main {
     grid-template-columns: 1fr;
     gap: 2.5rem;
-    width: 80%;
+    width: 90%;
+  }
+
+  .card:hover {
+    transform: translate(0);
   }
 }
 
@@ -111,6 +115,10 @@
   }
 
   /* mobile navigation */
+
+  html {
+    overflow-y: hidden;
+  }
 
   .btn-mobile-nav {
     display: block;
